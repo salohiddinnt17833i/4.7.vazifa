@@ -62,6 +62,16 @@
 
 //  5 masala: 
 
+let wordArray = ["Bye", "Money", "Well"];
+let newWordArray = [];
+
+function newWordFunction(arg) {
+    for(let i = 0; i < arg.length; i++){
+        newWordArray.push(arg[i].charAt(0))
+    }
+    return newWordArray
+}
+console.log(newWordFunction(wordArray));
 
 
 
